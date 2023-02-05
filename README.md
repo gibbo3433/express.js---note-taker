@@ -1,52 +1,43 @@
-# E-Commerce Back-End 
+# Express - Note Taker
 
 ## ####################
 
 ### User Story
 
-- AS A manager at an internet retail company
-- I WANT a back end for my e-commerce website that uses the latest technologies
-- SO THAT my company can compete with other e-commerce companies
+- AS A small business owner
+- I WANT to be able to write and save notes
+- SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ### Acceptance Criteria
 
-- GIVEN a functional Express.js API
-- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-- THEN I am able to connect to a database using Sequelize
-- WHEN I enter schema and seed commands
-- THEN a development database is created and is seeded with test data
-- WHEN I enter the command to invoke the application
-- THEN my server is started and the Sequelize models are synced to the MySQL database
-- WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-- THEN the data for each of these routes is displayed in a formatted JSON
-- WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-- THEN I am able to successfully create, update, and delete data in my database
+- GIVEN a note-taking application
+- WHEN I open the Note Taker
+- THEN I am presented with a landing page with a link to a notes page
+- WHEN I click on the link to the notes page
+- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+- WHEN I enter a new note title and the note’s text
+- THEN a Save icon appears in the navigation at the top of the page
+- WHEN I click on the Save icon
+- THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+- WHEN I click on an existing note in the list in the left-hand column
+- THEN that note appears in the right-hand column
+- WHEN I click on the Write icon in the navigation at the top of the page
+- THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ## Issues identified and corrected
 
-- Using "model" and "through"
+- index.js not connecting
 
-I could not remember how to add a model into my route so I needed to look into the express documentation and also back some previous lessons. I taught myself then
-how to include my models to associate other data.
+The index.js file could not find my GET, POST and DELETE requests as I did not link the correct filename in my code. Once corrected, all routes worked.
 
-- POST new data
+## Screenshots
 
-I needed to look into how to code the correct data in the body in JSON to then post it to the correct category, tag or product
-
-## Future work
-  
-- Add some additional categories into the data
-
-I have added  Javascript //notes to help any future edits by making it easier to see what the different elements are in the code so that if any collaboration work will be done in the future, it will be easiser to track and change.
-
-## Video Demonstration
-
-- Link to full video demonstration
-https://drive.google.com/file/d/1HpSOkWRlzPDqF8qVn_liAi4InJf2pAle/view
+https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes%20(1).png
+https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes.png
 
 ## Link to deployed application
 
-N/A
+Heroku - 
 
 ## Authors and acknowledgment
 
