@@ -37,7 +37,7 @@ The index.js file could not find my GET, POST and DELETE requests as I did not l
 
 ## Link to deployed application
 
-Heroku - 
+Heroku - https://note-taking-application2.herokuapp.com/
 
 ## Authors and acknowledgment
 
