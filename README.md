@@ -32,8 +32,8 @@ The index.js file could not find my GET, POST and DELETE requests as I did not l
 
 ## Screenshots
 
-https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes%20(1).png
-https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes.png
+![](https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes%20(1).png)
+![](https://github.com/gibbo3433/express.js---note-taker/blob/8cfe8fa99adaafa89a644e436a1af875f87903fd/screenshots/localhost_3001_notes.png)
 
 ## Link to deployed application
 
